@@ -38,3 +38,55 @@
   justify-content: center;
   align-items: center;
 }
+/* SECTION 1 */
+.contenitore_sezione {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  padding-top: 50px;
+}
+
+.box_sezione {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 650px;
+  background-color: lightblue;
+}
+
+.titolo {
+  width: 100%;
+  font-size: 55px;
+  font-weight: bold;
+  display: flex;
+  background-color: lightblue;
+  align-items: center;
+}
+.container_info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  /* debug*/
+  width: 30%;
+  background-color: lightblue;
+}
+.jumbo {
+  background-image: url(img/jumbo.png);
+  background-size: 100%;
+  width: 70%;
+  height: 77%;
+}
+.text {
+  background-color: lightblue;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+  width: 200px;
+  height: 40px;
+}
+/* SECTION 1 */
