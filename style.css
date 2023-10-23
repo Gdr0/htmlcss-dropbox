@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container_header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 30%;
+}
+.logo {
+  height: 20px;
+}
+
+.bar {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  font-size: 13px;
+}
+.blu {
+  background-color: blue;
+  font-size: 13px;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
