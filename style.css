@@ -90,3 +90,45 @@
   height: 40px;
 }
 /* SECTION 1 */
+.container_titolo {
+  padding-top: 50px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.checkbox {
+  display: flex;
+
+  width: 80%;
+  background-color: white;
+}
+
+.purple {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 30px;
+  background-color: white;
+  /* height: 800px; */
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  background-color: blue;
+  width: 80%;
+}
+.colonna {
+  height: 600px;
+  margin: 0 50px;
+  width: calc((100% / 3) - 100px);
+  /* debug */
+  background-color: brown;
+}
+.box_green {
+  height: 200px;
+  width: 80%;
+  background-color: green;
+}
