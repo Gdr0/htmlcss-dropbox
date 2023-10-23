@@ -47,7 +47,7 @@
 }
 
 .box_sezione {
-  width: 70%;
+  width: 60%;
   display: flex;
   flex-wrap: wrap;
   height: 650px;
@@ -75,7 +75,7 @@
   background-image: url(img/jumbo.png);
   background-size: 100%;
   width: 70%;
-  height: 77%;
+  height: 65%;
 }
 .text {
   background-color: lightblue;
@@ -132,3 +132,34 @@
   width: 80%;
   background-color: green;
 }
+/* sezione 2  */
+/* sezione 3  */
+.container_partner {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+.partner {
+  display: flex;
+  width: 60%;
+}
+.pic {
+  width: 90%;
+}
+.img_partner {
+  flex-basis: 60%;
+}
+.info_partner {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 50px;
+  flex-basis: 40%;
+}
+.white {
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+  width: 160px;
+}
+/* sezione 3  */
