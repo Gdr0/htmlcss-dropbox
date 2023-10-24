@@ -202,7 +202,7 @@
 }
 .info {
   width: 60%;
-  margin-top: 150px;
+  margin: 150px;
 }
 .column {
   display: flex;
@@ -214,6 +214,7 @@
 /* sezione 7 */
 .lightblue {
   background-color: lightblue;
+  align-items: center;
 }
 .row {
   display: flex;
@@ -236,5 +237,33 @@
 }
 /* sezione 7 */
 /* sezione 8 */
+.faq {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.container_domande {
+  margin-top: 100px;
+  width: 60%;
+  align-self: center;
+}
+.col_domande {
+  height: 300px;
+}
 
+.domande {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  height: calc(100% / 3);
+  background-color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+.tendina {
+  margin-right: 20px;
+}
 /* sezione 8 */
+/* sezione 9 */
