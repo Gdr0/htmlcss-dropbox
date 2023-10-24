@@ -195,3 +195,16 @@
   height: 100%;
 }
 /* sezione 5 */
+.box_info {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.info {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* sezione 5 */
