@@ -239,16 +239,19 @@
 /* sezione 8 */
 .faq {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   background-color: white;
+  height: 600px;
 }
 .container_domande {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   width: 60%;
-  align-self: center;
 }
 .col_domande {
   height: 300px;
+  margin-top: 50px;
 }
 
 .domande {
@@ -267,3 +270,35 @@
 }
 /* sezione 8 */
 /* sezione 9 */
+
+footer {
+  min-height: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row_footer {
+  width: 70%;
+  display: flex;
+  /* background-color: red; */
+  min-height: 250px;
+}
+
+.box_link {
+  /* background-color: pink; */
+  width: calc((100% / 3) - 40px);
+  margin-right: 10px;
+  list-style: none;
+  color: white;
+}
+.e {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  font-size: 12px;
+  font: bold;
+}
