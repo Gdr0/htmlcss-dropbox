@@ -201,10 +201,40 @@
   justify-content: center;
 }
 .info {
+  width: 60%;
   margin-top: 150px;
+}
+.column {
   display: flex;
   flex-direction: column;
   gap: 80px;
 }
 
 /* sezione 5 */
+/* sezione 7 */
+.lightblue {
+  background-color: lightblue;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.info_text {
+  flex-basis: 50%;
+  color: brown;
+}
+
+.box_bottone {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+}
+.bianco {
+  background-color: white;
+  color: black;
+}
+/* sezione 7 */
+/* sezione 8 */
+
+/* sezione 8 */
