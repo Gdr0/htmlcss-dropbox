@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
-
+li {
+  list-style: none;
+}
 .container_header {
   height: 50px;
   display: flex;
@@ -25,7 +27,6 @@
 .bar {
   display: flex;
   gap: 15px;
-  list-style: none;
   font-size: 13px;
 }
 .blu {
@@ -89,7 +90,8 @@
   width: 200px;
   height: 40px;
 }
-/* SECTION 1 */
+/* sezione 1 */
+/* sezione 2 */
 .container_titolo {
   padding-top: 50px;
   display: flex;
@@ -98,7 +100,6 @@
 }
 .checkbox {
   display: flex;
-
   width: 80%;
   background-color: white;
 }
@@ -112,27 +113,58 @@
   background-color: white;
   /* height: 800px; */
 }
-
+.piano {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border: solid black 1px;
+  margin-bottom: 30px;
+}
 .columns {
   display: flex;
   flex-direction: row;
-  height: 600px;
-  background-color: blue;
-  width: 80%;
+  height: 800px;
+  width: 60%;
+  font-size: 12px;
 }
 .colonna {
-  height: 600px;
-  margin: 0 50px;
-  width: calc((100% / 3) - 100px);
-  /* debug */
-  background-color: brown;
+  height: 100%;
+  margin: 0 10px;
+  padding: 20px;
+  width: calc((100% / 3) - 40px);
+  border: solid black 1px;
+}
+
+.fa-check {
+  color: purple;
+}
+.box_offerta div {
+  margin-bottom: 20px;
+}
+
+.prezzo {
+  margin-bottom: 50px;
+}
+
+.box_offerta .button {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 25px;
+}
+.box_offerta li {
+  margin-top: 20px;
 }
 .box_green {
   height: 200px;
   width: 80%;
   background-color: green;
 }
+.elenco {
+  margin-top: 80px;
+}
 /* sezione 2  */
+
 /* sezione 3  */
 .container_partner {
   display: flex;
@@ -269,8 +301,8 @@
   margin-right: 20px;
 }
 /* sezione 8 */
-/* sezione 9 */
 
+/* footer */
 footer {
   min-height: 500px;
   background-color: black;
@@ -290,15 +322,15 @@ footer {
   /* background-color: pink; */
   width: calc((100% / 3) - 40px);
   margin-right: 10px;
-  list-style: none;
   color: white;
 }
 .e {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  list-style: none;
+
   gap: 20px;
   font-size: 12px;
   font: bold;
 }
+/* footer */
