@@ -277,18 +277,76 @@ li {
   display: flex;
 }
 .inside {
-  background-color: brown;
+  background-color: white;
   height: 100%;
   width: calc(100% / 3);
+}
+.l {
   display: flex;
   flex-wrap: wrap;
 }
-.inside figure {
-  background-color: blue;
+.l div {
+  position: relative;
   width: 50%;
   height: 50%;
 }
+.l img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container_designit {
+  width: 50%;
+  margin: 40px;
+}
+.container_testo {
+}
+.c img {
+  width: 100%;
+}
+.designit {
+  background-color: aquamarine;
+}
+.arizona {
+  background-color: darkred;
+}
+.florida {
+  background-color: cornflowerblue;
+}
+.topps {
+  background-color: red;
+}
 
+.wbr {
+  background-color: red;
+}
+.hearst {
+  background-color: lightblue;
+}
+.lonely {
+  background-color: blueviolet;
+}
+.cc {
+  background-color: yellow;
+}
+
+.container_designit {
+  width: 50%;
+  margin: 40px;
+}
+.container_testo {
+  margin: 40px;
+  font-size: 12px;
+}
+.c img {
+  width: 100%;
+}
+.morten {
+  margin: 40px;
+  font-size: 12px;
+}
 /* sezione 6 */
 /* sezione 7 */
 .lightblue {
