@@ -85,7 +85,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: blueviolet;
   color: white;
   width: 200px;
   height: 40px;
@@ -111,7 +111,7 @@ li {
   padding-top: 50px;
   gap: 30px;
   background-color: white;
-  /* height: 800px; */
+  /* height: 1500px; */
 }
 .piano {
   display: inline-block;
@@ -155,10 +155,35 @@ li {
 .box_offerta li {
   margin-top: 20px;
 }
-.box_green {
-  height: 200px;
-  width: 80%;
-  background-color: green;
+.box_enterprise {
+  height: 100%;
+  width: 60%;
+  font-size: 12px;
+  border: solid grey 1px;
+}
+.enterprise {
+  text-align: center;
+  border-bottom: solid 1px grey;
+  padding: 10px;
+}
+.enterprise_contenitore {
+  padding: 20px 20px;
+}
+.off {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.info_off {
+  display: flex;
+  flex-direction: column;
+}
+.info_off h2 {
+  margin-bottom: 10px;
+}
+.ca span {
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 .elenco {
   margin-top: 80px;
@@ -167,6 +192,7 @@ li {
 
 /* sezione 3  */
 .container_partner {
+  padding: 100px;
   display: flex;
   justify-content: center;
   background-color: white;
